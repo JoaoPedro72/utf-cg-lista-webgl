@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Poligono Regular</title>
+        
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <h1>Pressione + ou - para mudar o número de lados ou use os botões abaixo</h1>
+        <button id="menos" onclick="menosLados()"><h3>-</h3></button>
+        <button id="mais" onclick="maisLados()"><h3>+</h3></button>
+        <button id="reset" onclick="resetLados()"><h3>Reset</h3></button>
+        <button><h3 id="nLados">lados</h3></button>
+        <p></p>
+        <canvas class="example-canvas" width="800" height="800" id="output"></canvas>
+        <script src="main.js"></script>
+        
+    </body>
+</html>
