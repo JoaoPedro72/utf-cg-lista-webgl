@@ -74,7 +74,7 @@ const uOffsetLoc = gl.getUniformLocation(program, 'uOffset');
 const uColorLoc = gl.getUniformLocation(program, 'uColor');
 
 // ===== LIMPA TELA =====
-gl.clearColor(0, 0.75, 0.75, 1);
+gl.clearColor(0.39, 0.39, 0.39, 1);
 gl.clear(gl.COLOR_BUFFER_BIT);
 
 // ===== DESENHA QUADRADOS =====
